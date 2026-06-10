@@ -2089,5 +2089,154 @@
     "checked_at": "2026-06-10 13:55 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-ra": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-ra-deluxe": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-ra-magic": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-tattoo": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-the-fallen": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-tombs": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-toro": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-tut-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-vikings": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/boom-brothers": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/boom-bucks": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/boom-pirates-fight-for-gold": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/boomanji": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:56 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/booming-seven-deluxe": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/booty-bay": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/boss-bear": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/boulder-blocks": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bounty-gold": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bounty-raid-2": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 13:57 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bountypop": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bourbon-street-bash": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bow-of-artemis": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/brave-mongoose": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/brawl-at-the-redcap-inn": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:57 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/brazilia": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:58 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

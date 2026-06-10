@@ -2843,5 +2843,153 @@
     "checked_at": "2026-06-10 14:04 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/celebration-of-wealth": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/champion-raceway": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/champions-of-mithrune": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/champions-of-olympus": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chaos-crew-ii": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/charlie-chance-in-hell-to-pay": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/charlie-chance-xreelz": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/charms-and-clovers": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chase-the-cheese": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cheerful-farmer": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cherry-blossoms": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cherry-mischief": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cherrypop": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chests-of-cai-shen": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:05 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chibeasties": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chibeasties-2": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chicago": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chicago-gold": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chicken-chase": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chicken-drop": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chilli-heat-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chilli-pepe-hot-stacks": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 14:06 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chilli-picante-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chilli-pop": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:06 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/chip-spin": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 14:07 UTC"
   }
 }

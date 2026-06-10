@@ -4,6 +4,7 @@ import requests
 import json
 import time
 import os
+import base64
 from datetime import datetime
 
 st.set_page_config(
@@ -221,9 +222,67 @@ if not check_password():
     st.stop()
 
 
-CSV_FILE    = "en_gx_slot_game_urls.csv"
+CSV_FILE     = "en_gx_slot_game_urls.csv"
 RESULTS_FILE = "index_results.json"
-CHUNK       = 25
+CHUNK        = 25
+
+# GitHub storage config (loaded from secrets)
+def _gh_cfg():
+    try:
+        return {
+            "token": st.secrets.get("GITHUB_TOKEN", ""),
+            "repo":  st.secrets.get("GITHUB_REPO", ""),   # e.g. san-kax/en-slot-index-checker
+            "path":  "index_results.json",
+        }
+    except Exception:
+        return {"token": "", "repo": "", "path": "index_results.json"}
+
+
+def _gh_headers(token):
+    return {"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
+
+
+def gh_load() -> dict:
+    """Fetch index_results.json from GitHub. Returns {} on any failure."""
+    cfg = _gh_cfg()
+    if not cfg["token"] or not cfg["repo"]:
+        return {}
+    try:
+        url  = f"https://api.github.com/repos/{cfg['repo']}/contents/{cfg['path']}"
+        resp = requests.get(url, headers=_gh_headers(cfg["token"]), timeout=10)
+        if resp.status_code == 404:
+            return {}
+        resp.raise_for_status()
+        content = resp.json().get("content", "")
+        return json.loads(base64.b64decode(content).decode("utf-8"))
+    except Exception:
+        return {}
+
+
+def gh_save(results: dict) -> bool:
+    """Commit updated index_results.json to GitHub. Returns True on success."""
+    cfg = _gh_cfg()
+    if not cfg["token"] or not cfg["repo"]:
+        return False
+    try:
+        url     = f"https://api.github.com/repos/{cfg['repo']}/contents/{cfg['path']}"
+        headers = _gh_headers(cfg["token"])
+
+        # Get current SHA (required for updates)
+        get_resp = requests.get(url, headers=headers, timeout=10)
+        sha = get_resp.json().get("sha") if get_resp.status_code == 200 else None
+
+        payload = {
+            "message": f"chore: update index results ({len(results):,} checked)",
+            "content": base64.b64encode(json.dumps(results, indent=2).encode()).decode(),
+        }
+        if sha:
+            payload["sha"] = sha
+
+        put_resp = requests.put(url, headers=headers, json=payload, timeout=15)
+        return put_resp.status_code in (200, 201)
+    except Exception:
+        return False
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -235,28 +294,44 @@ def load_urls():
 
 
 def load_results():
+    """Load from session state → GitHub → local file (in that order)."""
     if "results" in st.session_state:
         return st.session_state["results"]
-    for fname in (RESULTS_FILE, "index_results_backup.json"):
-        if os.path.exists(fname):
-            with open(fname, "r") as f:
-                data = json.load(f)
-            st.session_state["results"] = data
-            return data
+
+    # Try GitHub first
+    data = gh_load()
+    if data:
+        st.session_state["results"] = data
+        # Mirror to local file
+        try:
+            with open(RESULTS_FILE, "w") as f:
+                json.dump(data, f, indent=2)
+        except OSError:
+            pass
+        return data
+
+    # Fall back to local file
+    if os.path.exists(RESULTS_FILE):
+        with open(RESULTS_FILE, "r") as f:
+            data = json.load(f)
+        st.session_state["results"] = data
+        return data
+
     st.session_state["results"] = {}
     return {}
 
 
 def save_results(results: dict):
+    """Save to session state + local file + GitHub."""
     st.session_state["results"] = results
+    # Local file
     try:
         with open(RESULTS_FILE, "w") as f:
             json.dump(results, f, indent=2)
-        # Keep a rolling backup so a redeployment doesn't wipe progress
-        with open("index_results_backup.json", "w") as f:
-            json.dump(results, f, indent=2)
     except OSError:
         pass
+    # GitHub (shared across all users)
+    gh_save(results)
 
 
 def check_url_indexed(url: str, api_key: str) -> dict:
@@ -353,7 +428,22 @@ with st.sidebar:
         st.rerun()
 
     st.markdown("---")
-    st.markdown(f"<p style='font-size:11px;color:#64748b;'>Last updated: {datetime.utcnow().strftime('%H:%M UTC')}</p>",
+    cfg = _gh_cfg()
+    if cfg["token"] and cfg["repo"]:
+        st.markdown("""
+        <div style='background:#14532d;border-radius:8px;padding:10px 14px;'>
+          <span style='color:#86efac;font-size:12px;font-weight:600;'>✓ GITHUB SYNC</span><br>
+          <span style='color:#6ee7b7;font-size:11px;'>Results saved to repo after each batch</span>
+        </div>
+        """, unsafe_allow_html=True)
+    else:
+        st.markdown("""
+        <div style='background:#451a03;border-radius:8px;padding:10px 14px;'>
+          <span style='color:#fbbf24;font-size:12px;font-weight:600;'>⚠ GITHUB SYNC OFF</span><br>
+          <span style='color:#fde68a;font-size:11px;'>Add GITHUB_TOKEN + GITHUB_REPO to secrets</span>
+        </div>
+        """, unsafe_allow_html=True)
+    st.markdown(f"<p style='font-size:11px;color:#64748b;margin-top:8px;'>Last updated: {datetime.utcnow().strftime('%H:%M UTC')}</p>",
                 unsafe_allow_html=True)
 
 

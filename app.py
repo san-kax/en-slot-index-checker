@@ -12,6 +12,25 @@ st.set_page_config(
     layout="wide",
 )
 
+
+def check_password():
+    if st.session_state.get("authenticated"):
+        return True
+    st.title("🔍 Google Index Checker")
+    st.subheader("Sign in")
+    pwd = st.text_input("Password", type="password")
+    if st.button("Enter", type="primary"):
+        correct = st.secrets.get("APP_PASSWORD", "")
+        if pwd == correct and correct != "":
+            st.session_state["authenticated"] = True
+            st.rerun()
+        else:
+            st.error("Incorrect password.")
+    return False
+
+if not check_password():
+    st.stop()
+
 CSV_FILE = "en_gx_slot_game_urls.csv"
 RESULTS_FILE = "index_results.json"
 IS_CLOUD = not os.path.exists(RESULTS_FILE) and not os.access(".", os.W_OK)

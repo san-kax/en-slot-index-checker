@@ -1640,5 +1640,154 @@
     "checked_at": "2026-06-10 13:50 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-catch-bass-fishing-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-dragon-lounge": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-foot": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-juan": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-mouth-fishin": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-panda": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-robbery": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-top-terror": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bigger-bass-blizzard-christmas-catch": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bigger-bass-bonanza": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bigger-bass-splash": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bill-coin": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bill-coin-dream-drop": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/billy-s-game": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/birds": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/birds-of-wonder": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/birds-on-a-wire": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bison-battle": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:51 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bison-bonanza": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 13:52 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bison-moon": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:52 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bison-moon-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:52 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bison-moon-ultra-link-win": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:52 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bison-rising-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:52 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bitten": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:52 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/black-bull": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:52 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

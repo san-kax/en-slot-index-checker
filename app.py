@@ -144,8 +144,8 @@ with st.sidebar:
     )
 
     st.divider()
-    batch_size = st.slider("Batch size per run", 10, 200, 50, 10)
-    delay_ms   = st.slider("Delay between requests (ms)", 200, 3000, 500, 100)
+    batch_size = st.slider("Batch size per run", 10, 500, 200, 10)
+    delay_ms   = st.slider("Delay between requests (ms)", 200, 3000, 600, 100)
 
     st.divider()
     uploaded = st.file_uploader(

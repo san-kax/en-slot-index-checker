@@ -744,5 +744,153 @@
     "checked_at": "2026-06-10 13:38 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/american-diner": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:38 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/american-triple-double-gold": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:38 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/an-evening-with-holly-madison": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:38 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/ancient-arcadia": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 13:39 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/ancient-eclipse": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:39 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/ancient-fortunes-poseidon-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:39 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/ancient-fortunes-poseidon-wowpot-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:39 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/ancient-island-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:39 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/ancient-tumble": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 13:39 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/anderthals": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:39 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/angel-vs-sinner": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:39 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/animal-madness": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:39 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/animals-of-africa": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:39 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/ankh-of-anubis-awakening": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/anna-van-helsing-monster-huntress": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/annihilator": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/anubis-rising": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/apocalypse-super-xnudge": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/apollo-god-of-the-sun": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/apollo-pays-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/aquanauts": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/aquatic-treasures": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/arabian-charms": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/arabian-nights": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/arabian-spins": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:40 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

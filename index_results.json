@@ -1491,5 +1491,154 @@
     "checked_at": "2026-06-10 13:48 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bad-wolf": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bad-wolf-christmas-special": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bad-wolf-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bad-wolf-pigs-of-steel": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bamboo": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bang-boom": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-amazon-xtreme": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-bonanza": {
+    "status": "indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 1,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-bonanza-hold-spinner": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-bonanza-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-bonanza-reel-action": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-christmas-bash": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-crash": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-floats-my-boat": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-halloween": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-halloween-2": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-hold-spinner-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-keeping-it-reel": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 13:49 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-mission-fishin": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-secrets-of-the-golden-lake": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-splash": {
+    "status": "indexed",
+    "checked_at": "2026-06-10 13:49 UTC",
+    "result_count": 1,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bass-xmas-extreme": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bucks-bandits-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-cat-rescue-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-catch": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:50 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

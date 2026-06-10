@@ -237,11 +237,12 @@ def load_urls():
 def load_results():
     if "results" in st.session_state:
         return st.session_state["results"]
-    if os.path.exists(RESULTS_FILE):
-        with open(RESULTS_FILE, "r") as f:
-            data = json.load(f)
-        st.session_state["results"] = data
-        return data
+    for fname in (RESULTS_FILE, "index_results_backup.json"):
+        if os.path.exists(fname):
+            with open(fname, "r") as f:
+                data = json.load(f)
+            st.session_state["results"] = data
+            return data
     st.session_state["results"] = {}
     return {}
 
@@ -250,6 +251,9 @@ def save_results(results: dict):
     st.session_state["results"] = results
     try:
         with open(RESULTS_FILE, "w") as f:
+            json.dump(results, f, indent=2)
+        # Keep a rolling backup so a redeployment doesn't wipe progress
+        with open("index_results_backup.json", "w") as f:
             json.dump(results, f, indent=2)
     except OSError:
         pass
@@ -309,14 +313,22 @@ def colour_status(val):
 with st.sidebar:
     st.markdown("## ⚙️ Settings")
 
-    default_key = ""
+    api_key = ""
     try:
-        default_key = st.secrets.get("SERP_API_KEY", "")
+        api_key = st.secrets.get("SERP_API_KEY", "")
     except Exception:
         pass
 
-    api_key = st.text_input("SERP API Key", value=default_key, type="password",
-                            help="Set SERP_API_KEY in Streamlit secrets to pre-fill.")
+    if api_key:
+        st.markdown("""
+        <div style='background:#1e3a5f;border-radius:8px;padding:10px 14px;margin-bottom:4px;'>
+          <span style='color:#60a5fa;font-size:12px;font-weight:600;'>✓ SERP API KEY</span><br>
+          <span style='color:#94a3b8;font-size:11px;'>Loaded from secrets</span>
+        </div>
+        """, unsafe_allow_html=True)
+    else:
+        api_key = st.text_input("SERP API Key", type="password",
+                                help="Set SERP_API_KEY in Streamlit Cloud secrets to avoid entering it here.")
 
     st.markdown("---")
     delay_ms = st.slider("Delay between requests (ms)", 200, 3000, 600, 100)

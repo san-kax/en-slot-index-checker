@@ -402,9 +402,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/action-boost-3-lucky-rainbows": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:21 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/action-boost-christmas": {
     "status": "not_indexed",
@@ -605,9 +606,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/all-ways-joker": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:37 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/all-ways-win": {
     "status": "not_indexed",
@@ -688,9 +690,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/amazing-link-frenzy": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:38 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/amazing-link-hades": {
     "status": "not_indexed",
@@ -723,9 +726,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/amazing-stars": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:38 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/amazon-idols-million-maker": {
     "status": "not_indexed",
@@ -764,9 +768,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/ancient-arcadia": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:39 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/ancient-eclipse": {
     "status": "not_indexed",
@@ -793,9 +798,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/ancient-tumble": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:39 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/anderthals": {
     "status": "not_indexed",
@@ -1344,9 +1350,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/beach-bar": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:46 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/beach-invaders": {
     "status": "not_indexed",
@@ -1595,9 +1602,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/big-bass-keeping-it-reel": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:49 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/big-bass-mission-fishin": {
     "status": "not_indexed",
@@ -1750,9 +1758,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/bison-bonanza": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:52 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/bison-moon": {
     "status": "not_indexed",
@@ -2199,9 +2208,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/bounty-raid-2": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 13:57 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/bountypop": {
     "status": "not_indexed",
@@ -2456,9 +2466,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/call-of-the-colosseum": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 14:01 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/candy-bars": {
     "status": "not_indexed",
@@ -2971,9 +2982,10 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/chilli-pepe-hot-stacks": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 14:06 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:51 UTC",
+    "result_count": 0,
+    "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/chilli-picante-megaways": {
     "status": "not_indexed",
@@ -2988,8 +3000,9 @@
     "error": null
   },
   "https://www.gambling.com/ca/online-casinos/slots/chip-spin": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
-    "checked_at": "2026-06-10 14:07 UTC"
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 16:52 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

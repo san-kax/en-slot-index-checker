@@ -2388,5 +2388,154 @@
     "checked_at": "2026-06-10 14:00 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/burning-classics": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bushi-sushi": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bushido-ways-xnudge": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/buster-hammer-carnival": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/buster-s-bones": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/butterflies": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cabaret-nights": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cabin-crashers": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cairo-link-win": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:00 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/california-gold": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/call-of-fruity": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/call-of-the-colosseum": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 14:01 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/candy-bars": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/candy-blitz": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/candy-blitz-bombs": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/candy-combo-power-combo": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/candy-corner": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/candy-glyph": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/candy-jar-clusters": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/candy-stars": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/canine-carnage": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/captain-cash": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/captain-glum-pirate-hunter": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/captain-payback": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/captain-payback-2": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:01 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

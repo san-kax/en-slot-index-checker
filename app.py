@@ -21,8 +21,11 @@ st.markdown("""
 /* Page background */
 .stApp { background: #f4f6f9; }
 
-/* Hide default streamlit header padding */
-.block-container { padding-top: 1.5rem !important; padding-bottom: 2rem !important; }
+/* Push content below Streamlit's top toolbar */
+.block-container { padding-top: 3.5rem !important; padding-bottom: 2rem !important; }
+
+/* Hide the default top decoration bar */
+header[data-testid="stHeader"] { background: transparent; }
 
 /* ── Stat cards ── */
 .stat-grid {

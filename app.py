@@ -33,7 +33,7 @@ if not check_password():
 
 CSV_FILE = "en_gx_slot_game_urls.csv"
 RESULTS_FILE = "index_results.json"
-IS_CLOUD = not os.path.exists(RESULTS_FILE) and not os.access(".", os.W_OK)
+CHUNK = 25  # URLs processed per rerun cycle
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -45,7 +45,6 @@ def load_urls():
 
 
 def load_results():
-    # Session state takes priority (cloud); fall back to local file
     if "results" in st.session_state:
         return st.session_state["results"]
     if os.path.exists(RESULTS_FILE):
@@ -63,7 +62,7 @@ def save_results(results: dict):
         with open(RESULTS_FILE, "w") as f:
             json.dump(results, f, indent=2)
     except OSError:
-        pass  # read-only filesystem (Streamlit Cloud) — session state is the store
+        pass
 
 
 def check_url_indexed(url: str, api_key: str) -> dict:
@@ -110,18 +109,14 @@ def build_summary_df(df: pd.DataFrame, results: dict) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-STATUS_COLOURS = {
-    "indexed":     ("🟢", "#d4edda", "#155724"),
-    "not_indexed": ("🔴", "#f8d7da", "#721c24"),
-    "error":       ("🟡", "#fff3cd", "#856404"),
-    "pending":     ("⚪", "#e9ecef", "#383d41"),
-}
-
 def colour_status(val):
-    _, bg, fg = STATUS_COLOURS.get(val, ("", "", ""))
-    if bg:
-        return f"background-color:{bg}; color:{fg}; font-weight:500"
-    return ""
+    colours = {
+        "indexed":     "background-color:#d4edda; color:#155724; font-weight:500",
+        "not_indexed": "background-color:#f8d7da; color:#721c24; font-weight:500",
+        "error":       "background-color:#fff3cd; color:#856404; font-weight:500",
+        "pending":     "background-color:#e9ecef; color:#383d41; font-weight:500",
+    }
+    return colours.get(val, "")
 
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
@@ -129,7 +124,6 @@ def colour_status(val):
 with st.sidebar:
     st.title("⚙️ Settings")
 
-    # Pre-fill from Streamlit secrets if available
     default_key = ""
     try:
         default_key = st.secrets.get("SERP_API_KEY", "")
@@ -144,8 +138,7 @@ with st.sidebar:
     )
 
     st.divider()
-    batch_size = st.slider("Batch size per run", 10, 500, 200, 10)
-    delay_ms   = st.slider("Delay between requests (ms)", 200, 3000, 600, 100)
+    delay_ms = st.slider("Delay between requests (ms)", 200, 3000, 600, 100)
 
     st.divider()
     uploaded = st.file_uploader(
@@ -162,6 +155,8 @@ with st.sidebar:
     st.divider()
     if st.button("🗑️ Clear all results", use_container_width=True):
         st.session_state["results"] = {}
+        st.session_state["running"] = False
+        st.session_state["recheck_errors"] = False
         if os.path.exists(RESULTS_FILE):
             os.remove(RESULTS_FILE)
         st.rerun()
@@ -175,8 +170,8 @@ except FileNotFoundError:
     st.error(f"`{CSV_FILE}` not found. Make sure it's committed to the repo.")
     st.stop()
 
-results     = load_results()
-summary_df  = build_summary_df(df, results)
+results    = load_results()
+summary_df = build_summary_df(df, results)
 
 total       = len(summary_df)
 indexed     = (summary_df["index_status"] == "indexed").sum()
@@ -185,6 +180,9 @@ errors      = (summary_df["index_status"] == "error").sum()
 pending     = (summary_df["index_status"] == "pending").sum()
 checked     = total - pending
 pct_done    = round(checked / total * 100, 1) if total else 0
+
+running         = st.session_state.get("running", False)
+recheck_errors  = st.session_state.get("recheck_errors", False)
 
 
 # ── Header ────────────────────────────────────────────────────────────────────
@@ -195,12 +193,12 @@ st.caption("gambling.com — EN Slot Games Pages  •  Data: en_gx_slot_game_url
 # ── Summary cards ─────────────────────────────────────────────────────────────
 
 c1, c2, c3, c4, c5, c6 = st.columns(6)
-c1.metric("Total URLs",      f"{total:,}")
-c2.metric("Checked",         f"{checked:,}",     delta=f"{pct_done}%")
-c3.metric("🟢 Indexed",      f"{indexed:,}",     delta=f"{round(indexed/checked*100,1)}% of checked" if checked else None)
-c4.metric("🔴 Not indexed",  f"{not_indexed:,}", delta=f"{round(not_indexed/checked*100,1)}% of checked" if checked else None)
-c5.metric("🟡 Errors",       f"{errors:,}")
-c6.metric("⚪ Pending",      f"{pending:,}")
+c1.metric("Total URLs",     f"{total:,}")
+c2.metric("Checked",        f"{checked:,}",     delta=f"{pct_done}%")
+c3.metric("🟢 Indexed",     f"{indexed:,}",     delta=f"{round(indexed/checked*100,1)}% of checked" if checked else None)
+c4.metric("🔴 Not indexed", f"{not_indexed:,}", delta=f"{round(not_indexed/checked*100,1)}% of checked" if checked else None)
+c5.metric("🟡 Errors",      f"{errors:,}")
+c6.metric("⚪ Pending",     f"{pending:,}")
 
 st.progress(checked / total if total else 0, text=f"Progress: {checked:,} / {total:,} URLs checked ({pct_done}%)")
 
@@ -208,64 +206,84 @@ st.divider()
 
 # ── Run controls ──────────────────────────────────────────────────────────────
 
-col_run, col_err, col_save = st.columns([2, 1, 1])
+col_start, col_recheck, col_stop, col_save = st.columns([2, 2, 1, 1])
 
-with col_run:
-    run_btn = st.button(
-        f"▶ Check next {batch_size} pending URLs",
+with col_start:
+    if st.button(
+        "▶ Start index check" if not running else "▶ Running… (click Stop to pause)",
         type="primary",
-        disabled=not api_key or pending == 0,
+        disabled=running or not api_key or pending == 0,
         use_container_width=True,
-    )
-with col_err:
-    recheck_btn = st.button(
-        f"🔄 Recheck {errors:,} errors",
-        disabled=not api_key or errors == 0,
+    ):
+        st.session_state["running"] = True
+        st.session_state["recheck_errors"] = False
+        st.rerun()
+
+with col_recheck:
+    if st.button(
+        "🔄 Recheck all errors" if not recheck_errors else "🔄 Rechecking errors…",
+        disabled=running or not api_key or errors == 0,
         use_container_width=True,
-    )
+    ):
+        st.session_state["running"] = True
+        st.session_state["recheck_errors"] = True
+        st.rerun()
+
+with col_stop:
+    if st.button("⏹ Stop", disabled=not running, use_container_width=True, type="secondary"):
+        st.session_state["running"] = False
+        st.session_state["recheck_errors"] = False
+        st.rerun()
+
 with col_save:
-    results_json = json.dumps(results, indent=2).encode("utf-8")
     st.download_button(
-        "💾 Save progress (JSON)",
-        data=results_json,
+        "💾 Save (JSON)",
+        data=json.dumps(results, indent=2).encode("utf-8"),
         file_name=f"index_results_{datetime.now().strftime('%Y%m%d_%H%M')}.json",
         mime="application/json",
         use_container_width=True,
         disabled=len(results) == 0,
     )
 
-if run_btn or recheck_btn:
-    if not api_key:
-        st.error("Enter your SERP API key in the sidebar.")
-        st.stop()
+# ── Auto-run loop ─────────────────────────────────────────────────────────────
 
-    queue = (
-        summary_df[summary_df["index_status"] == "error"]["url"].tolist()[:batch_size]
-        if recheck_btn
-        else summary_df[summary_df["index_status"] == "pending"]["url"].tolist()[:batch_size]
-    )
+if running:
+    if recheck_errors:
+        queue = summary_df[summary_df["index_status"] == "error"]["url"].tolist()
+    else:
+        queue = summary_df[summary_df["index_status"] == "pending"]["url"].tolist()
 
-    prog      = st.progress(0, text="Starting…")
-    status_ph = st.empty()
-    rate_hit  = False
+    if not queue:
+        st.session_state["running"] = False
+        st.session_state["recheck_errors"] = False
+        st.success("✅ All URLs checked!")
+        st.rerun()
 
-    for i, url in enumerate(queue):
-        status_ph.text(f"({i+1}/{len(queue)}) {url}")
+    chunk = queue[:CHUNK]
+    total_remaining = len(queue)
+
+    status_box = st.info(f"⚡ Running — {total_remaining:,} URLs remaining. Processing next {len(chunk)}…")
+    prog = st.progress(0)
+
+    rate_hit = False
+    for i, url in enumerate(chunk):
         result = check_url_indexed(url, api_key)
         results[url] = result
 
         if result.get("error") == "rate_limited":
+            st.session_state["running"] = False
+            st.session_state["recheck_errors"] = False
+            save_results(results)
             st.warning("⚠️ Rate limited by SERP API. Progress saved — try again shortly.")
             rate_hit = True
             break
 
-        prog.progress((i + 1) / len(queue), text=f"{i+1}/{len(queue)} checked")
+        prog.progress((i + 1) / len(chunk))
         time.sleep(delay_ms / 1000)
 
-    save_results(results)
     if not rate_hit:
-        status_ph.success(f"✅ Done! {len(queue)} URLs checked.")
-    st.rerun()
+        save_results(results)
+        st.rerun()
 
 st.divider()
 

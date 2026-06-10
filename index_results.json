@@ -2537,5 +2537,161 @@
     "checked_at": "2026-06-10 14:01 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/captain-quid-s-treasure-chest": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/captain-venture": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/captain-xeno-s-earth-adventure": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/caribbean-holidays": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/carnaval-jackpot": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/carnival-queen": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/carnivale-forever": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/carol-of-the-elves": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/carousel": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-a-cabana": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-balloons": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-bonanza": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-chips": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-coaster": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-crew": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-elevator": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:02 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-farm": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-n-riches-wowpot-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-noire": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-of-command": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-patrol": {
+    "status": "indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 1,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-pig": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-stampede": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-stax": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-strike-hotstepper-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/cash-truck": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 14:03 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

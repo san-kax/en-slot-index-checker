@@ -1342,5 +1342,154 @@
     "checked_at": "2026-06-10 13:45 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beach-bar": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 13:46 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beach-invaders": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beach-life": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beam-boys": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bear-mountain": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beast-below": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beast-mode": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beast-of-wealth": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beasts-of-fire": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beasts-of-fire-maximum": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beauty-and-the-beast": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beauty-fairy": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bee-hive-bonanza": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:46 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beef-lightning": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beellionaires-dream-drop": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beer-barrel-bash": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beetle-mania-deluxe": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/beheaded": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bejeweled": {
+    "status": "indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 1,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bells-on-fire": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/benji-killed-in-vegas": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/benny-the-beer": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/better-wilds": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:47 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-apple-wins": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/big-bad-bison": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:48 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

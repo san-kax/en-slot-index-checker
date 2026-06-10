@@ -1939,5 +1939,155 @@
     "checked_at": "2026-06-10 13:54 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bobby-7s": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bomb-bonanza": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bompers": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bonanza": {
+    "status": "indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 1,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bonanza-falls": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bonanza-megapays": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bonanza-rush-express": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bones-bounty": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/bonus-bunnies": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:54 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-99": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-atem-wowpot": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-aztec": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-books": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-captain-silver": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-darkness": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-fortune": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-goddess-mega-moolah": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-gold-symbol-choice": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-golden-sands": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-inferno": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-king-arthur": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-kings": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-maya": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-mega-moolah": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/book-of-power": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:55 UTC",
+    "result_count": 0,
+    "error": null
   }
 }

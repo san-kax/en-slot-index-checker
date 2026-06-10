@@ -298,5 +298,154 @@
     "checked_at": "2026-06-10 13:20 UTC",
     "result_count": 0,
     "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/9-blazing-diamonds-wowpot": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/9-masks-of-fire": {
+    "status": "indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 1,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/9-masks-of-fire-hyperspins": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/9-pots-of-gold": {
+    "status": "indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 1,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/9-pots-of-gold-hyperspins": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/9-pots-of-gold-king-millions": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/9-pots-of-gold-land-win": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/9-pots-of-gold-megaways": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/a-christmas-carol": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:20 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/a-night-in-paris": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:21 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/a-night-of-mystery": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:21 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/a-night-out": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:21 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/a-visit-from-st-nick": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:21 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/a-while-on-the-nile": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:21 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/absolootly-mad-mega-moolah": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:21 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/ace-ventura-pet-detective": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:21 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/action-bank": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:21 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/action-boost-3-lucky-rainbows": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout",
+    "checked_at": "2026-06-10 13:21 UTC"
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/action-boost-christmas": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:22 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/action-boost-max-dragon-s-cache": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:22 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/action-boost-treasure-trove": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:22 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/action-jack": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:22 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/action-wheel": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:22 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/admiral-nelson": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:22 UTC",
+    "result_count": 0,
+    "error": null
+  },
+  "https://www.gambling.com/ca/online-casinos/slots/adventures-in-wonderland": {
+    "status": "not_indexed",
+    "checked_at": "2026-06-10 13:22 UTC",
+    "result_count": 0,
+    "error": null
   }
 }
